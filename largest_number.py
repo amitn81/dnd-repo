@@ -24,7 +24,7 @@ def main():
 
     # Display the result
     # st.subheader("The largest number is:",st.write(largest_num))
-    st.write("The largest number is:", :red[largest])
+    st.write(:red["The largest number is:"], largest)
 
 if __name__ == '__main__':
     main()
