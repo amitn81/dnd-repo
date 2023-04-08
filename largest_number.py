@@ -27,7 +27,7 @@ def main():
     largest_num = find_largest_number(num1, num2, num3)
 
     # Display the result
-    st.subheader("The largest number is:")
+    st.subheader("The largest number is:",st.write(largest_num)
     st.write("The largest number is:", largest_num)
 
 if __name__ == '__main__':
