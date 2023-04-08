@@ -9,10 +9,11 @@ Original file is located at
 
 import streamlit as st
 
-def find_largest_number(num1, num2, num3):
+"""def find_largest_number(num1, num2, num3):
     # Find the largest number
     largest_num = max(num1, num2, num3)
     return largest_num
+    """
 
 def main():
     # Set app title
@@ -24,7 +25,8 @@ def main():
     num3 = st.number_input("Enter Third Number:")
 
     # Find the largest number
-    largest_num = find_largest_number(num1, num2, num3)
+    #largest_num = find_largest_number(num1, num2, num3)
+    largest_num = max(num1, num2, num3)
 
     # Display the result
     # st.subheader("The largest number is:",st.write(largest_num))
