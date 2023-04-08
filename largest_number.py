@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/13E2g0LyByR375nNTYWtMt8n1ocoqfv46
 """
 
-!pip install streamlit
-
 import streamlit as st
 
 def find_largest_number(num1, num2, num3):
